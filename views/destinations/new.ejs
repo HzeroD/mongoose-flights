@@ -1,0 +1,15 @@
+<%- include("../partials/html-head.ejs") %>
+<%- include("../partials/nav.ejs") %>
+
+<main>
+    <form id="create-destination" action="/destinations" method="POST">
+        <br>
+        <label for="destination-input">Destination:</label>
+        <br> <br>
+        <input type="text" name="airport" id="destination">
+        <button type="submit">Add Destination</button>
+    </form>
+
+</main>
+
+<%- include("../partials/footer.ejs") %>
